@@ -9,3 +9,13 @@ nr_letters= int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
+password_list = []
+
+# create a list of user chosen letters
+
+#create a list of user chosen symbols
+
+#create a list of user chosen numbers
+
+
+#add all the items to the password_list, shuffle and stringify
