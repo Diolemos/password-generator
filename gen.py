@@ -37,3 +37,4 @@ print(password_list)
 random.shuffle(password_list)
 password = ''.join(password_list)
 
+print(f"Your generated code is:  {password}")
