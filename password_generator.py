@@ -6,7 +6,7 @@ class Password_generator():
         self.NUMBERS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
         self.SYMBOLS = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
         
-        def generate_password(self,num_of_letters=5,num_of_numbers=3,number_of_symbols=3):
+    def generate_password(self,num_of_letters=5,num_of_numbers=3,number_of_symbols=3):
             letters = random.choices(self.LETTERS, k=num_of_letters)
             print(letters)
             # for _ in range(int(num_of_letters)):
